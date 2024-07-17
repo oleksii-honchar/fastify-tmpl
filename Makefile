@@ -42,3 +42,10 @@ logs-stop: ## stop logs stack
 
 logs-logs: ## display logs from logs stack
 	@docker compose -f ./ops/grafana-logs/docker-compose.logs.yaml logs -f
+
+release-please-debug: ## debug release-please config
+	@release-please release-pr \
+		--token=${GITHUB_TOKEN} \
+		--repo-url=oleksii-honchar/fastify-tmpl \
+		--debug \
+		--dry-run

@@ -1,6 +1,6 @@
 {
   "name": "fastify-tmpl",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Fastify API service template",
   "homepage": "https://github.com/oleksii-honchar/fastify-tmpl/blob/main/README.md",
   "bugs": {
