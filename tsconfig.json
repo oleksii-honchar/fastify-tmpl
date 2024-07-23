@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "noEmit": true,
+    "outDir": "./dist",
     "paths": {
       "src/*": ["./src/*"],
       "types": ["./src/types.d.ts"],
@@ -10,12 +11,5 @@
     }
   },
   "include": ["./src/**/*"],
-  "exclude": [
-    "./node_modules",
-    "./dist",
-    "./docs",
-    "./coverage",
-    "./ops",
-    "./scripts"
-  ]
+  "exclude": ["./node_modules", "./dist", "./docs", "./coverage", "./ops", "./scripts"]
 }
