@@ -3,7 +3,7 @@ FROM tuiteraz/jaba-node:22.3-0 AS base
 # default workdir = /usr/src/app
 ENV TZ=Europe/Madrid
 COPY ./scripts/entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
+RUN /bin/bash -c "chmod +x /usr/local/bin/entrypoint.sh"
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD ["node", "--enable-source-maps", "dist/src/index.js"]
 
