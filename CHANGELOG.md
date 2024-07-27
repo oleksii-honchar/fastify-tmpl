@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.0...v1.1.1) (2024-07-27)
+
+
+### Bug Fixes
+
+* add env ([#18](https://github.com/oleksii-honchar/fastify-tmpl/issues/18)) ([1051877](https://github.com/oleksii-honchar/fastify-tmpl/commit/10518770d35f2ba2ef490c496d5c3e48bcb0dd6a))
+
 ## [1.1.0](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.0.0...v1.1.0) (2024-07-27)
 
 
