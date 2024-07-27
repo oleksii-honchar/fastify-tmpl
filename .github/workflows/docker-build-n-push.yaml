@@ -1,0 +1,23 @@
+name: Build Docker image and push to Docker Hub
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  builds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - run: sudo apt-get update && sudo apt-get install -y jq
+      - run: make docker-build
+      - run: make docker-tag-latest
+      - run: make docker-push
+      - run: docker logout
