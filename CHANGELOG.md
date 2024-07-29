@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.4...v1.1.5) (2024-07-29)
+
+
+### Bug Fixes
+
+* move husky to rpod deps ([b1984ca](https://github.com/oleksii-honchar/fastify-tmpl/commit/b1984ca001e2dd89830cb73d3f2eb1ea18bfc6e4))
+
 ## [1.1.4](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.3...v1.1.4) (2024-07-29)
 
 
