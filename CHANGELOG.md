@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.1...v1.1.2) (2024-07-29)
+
+
+### Bug Fixes
+
+* add build-n-push; add husky ([c85fad7](https://github.com/oleksii-honchar/fastify-tmpl/commit/c85fad7bce3609cd600d62f01b535f0125e1512c))
+
 ## [1.1.1](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.0...v1.1.1) (2024-07-27)
 
 
