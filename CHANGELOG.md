@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.3...v1.1.4) (2024-07-29)
+
+
+### Bug Fixes
+
+* remove dotenvx from build ([0293bef](https://github.com/oleksii-honchar/fastify-tmpl/commit/0293beff5d75f528d80872d4f5e6ba210c82fe38))
+
 ## [1.1.3](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.2...v1.1.3) (2024-07-29)
 
 
