@@ -27,6 +27,11 @@ ifndef NODE_ENV
   export NODE_ENV = development
 endif
 
+# used for multi-platform builds
+create-docker-container-builder:
+	@docker buildx create --use --name docker-container --driver docker-container
+	@docker buildx inspect docker-container --bootstrap
+
 docker-build: check-node-env ## build docker image
 	docker build --load -f ./Dockerfile --build-arg IMAGE_VERSION=$(IMAGE_VERSION) --build-arg IMAGE_NAME=$(IMAGE_NAME) -t $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):$(IMAGE_VERSION) .
 
