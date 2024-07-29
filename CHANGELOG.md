@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.4](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.3...v1.1.4) (2024-07-29)
+
+
+### Bug Fixes
+
+* remove dotenvx from build ([0293bef](https://github.com/oleksii-honchar/fastify-tmpl/commit/0293beff5d75f528d80872d4f5e6ba210c82fe38))
+
+## [1.1.3](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.2...v1.1.3) (2024-07-29)
+
+
+### Bug Fixes
+
+* add docker container builder ([6d08e50](https://github.com/oleksii-honchar/fastify-tmpl/commit/6d08e508f4ec6cde28f45753fa7f77ca3a4b2032))
+
+## [1.1.2](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.1...v1.1.2) (2024-07-29)
+
+
+### Bug Fixes
+
+* add build-n-push; add husky ([c85fad7](https://github.com/oleksii-honchar/fastify-tmpl/commit/c85fad7bce3609cd600d62f01b535f0125e1512c))
+
 ## [1.1.1](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.0...v1.1.1) (2024-07-27)
 
 
