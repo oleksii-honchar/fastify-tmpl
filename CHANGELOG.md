@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.2...v1.1.3) (2024-07-29)
+
+
+### Bug Fixes
+
+* add docker container builder ([6d08e50](https://github.com/oleksii-honchar/fastify-tmpl/commit/6d08e508f4ec6cde28f45753fa7f77ca3a4b2032))
+
 ## [1.1.2](https://github.com/oleksii-honchar/fastify-tmpl/compare/v1.1.1...v1.1.2) (2024-07-29)
 
 
