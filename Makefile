@@ -30,6 +30,9 @@ endif
 docker-build: check-node-env ## build docker image
 	docker build --load -f ./Dockerfile --build-arg IMAGE_VERSION=$(IMAGE_VERSION) --build-arg IMAGE_NAME=$(IMAGE_NAME) -t $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):$(IMAGE_VERSION) .
 
+docker-build-n-push: check-node-env ## build docker image
+	docker buildx build --builder docker-container --platform linux/amd64,linux/arm64 --push -f ./Dockerfile --build-arg IMAGE_VERSION=$(IMAGE_VERSION) --build-arg IMAGE_NAME=$(IMAGE_NAME) -t $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):$(IMAGE_VERSION) -t $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):latest .
+
 docker-push: ## push latest image to docker hub of <type>
 	@docker push $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):$(IMAGE_VERSION)
 	@docker push $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):latest

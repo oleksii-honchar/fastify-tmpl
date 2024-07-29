@@ -20,8 +20,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - run: sudo apt-get update && sudo apt-get install -y jq
-      - run: make docker-build
-      - run: make docker-tag-latest
-      - run: make docker-push
+      - run: make create-docker-container-builder
+      - run: make docker-build-n-push
       - run: docker logout
