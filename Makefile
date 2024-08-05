@@ -43,7 +43,7 @@ docker-push: ## push latest image to docker hub of <type>
 	@docker push $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):latest
 
 docker-run: check-node-env ## build docker image
-	docker run --rm -p 9000:9000 $(IMAGE_NAME):$(IMAGE_VERSION)
+	docker run --rm -p 9000:9000 $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):$(IMAGE_VERSION)
 
 docker-tag-latest: ## tag image as latest
 	@docker tag $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):$(IMAGE_VERSION) $(DOCKERHUB_USERNAME)/$(IMAGE_NAME):latest
