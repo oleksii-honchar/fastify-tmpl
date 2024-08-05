@@ -27,7 +27,7 @@
     "dotenvx": "dotenvx run --env-file .env",
     "lint:check": "ESLINT_USE_FLAT_CONFIG=true eslint --config ./eslint.config.js --cache . --max-warnings 0",
     "lint:fix": "pnpm lint --fix",
-    "prepare": "husky init",
+    "prepare": "husky",
     "prettier:check": "prettier --check \"{src,test}/**/*.{ts,js,json,md}\"",
     "prettier:write": "prettier --write \"{src,test}/**/*.{ts,js,json,md}\"",
     "sort-package-json": "npx sort-package-json",
