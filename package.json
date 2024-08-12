@@ -59,7 +59,7 @@
     "eslint": "^9.8.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-markdown": "^5.1.0",
-    "globals": "^15.8.0",
+    "globals": "^15.9.0",
     "jest": "^29.7.0",
     "nodemon": "3.1.4",
     "pino-pretty": "^11.2.2",
