@@ -55,7 +55,7 @@
     "@tsconfig/recommended": "1.0.7",
     "@types/config": "^3.3.4",
     "@types/eslint__js": "^8.42.3",
-    "@types/node": "22.1.0",
+    "@types/node": "22.5.0",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-markdown": "^5.1.0",
