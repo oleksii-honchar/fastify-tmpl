@@ -34,8 +34,8 @@ importers:
         version: 2.7.0
     devDependencies:
       '@dotenvx/dotenvx':
-        specifier: ^1.14.1
-        version: 1.14.1
+        specifier: ^1.15.0
+        version: 1.15.0
       '@eslint/js':
         specifier: ^9.11.0
         version: 9.11.0
@@ -280,8 +280,8 @@ packages:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
     engines: {node: '>=12'}
 
-  '@dotenvx/dotenvx@1.14.1':
-    resolution: {integrity: sha512-uuv4JJxyy2dA1VaoyJpv404tzg+xpShYOy7eMYD7MZTAdO5JMnYlm7x5UZV6jgaHk5w99OTTe17i/R2fOS5jbw==}
+  '@dotenvx/dotenvx@1.15.0':
+    resolution: {integrity: sha512-hde8JZV6Czmyil4eorWwN+fJmbdGYzQfDC2OdyM8VooSdRM0SGHD03WVVp5NiVd5oVNFa3yJ2E61Hntar3pMJg==}
     hasBin: true
 
   '@eslint-community/eslint-utils@4.4.0':
@@ -2395,7 +2395,7 @@ snapshots:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
 
-  '@dotenvx/dotenvx@1.14.1':
+  '@dotenvx/dotenvx@1.15.0':
     dependencies:
       commander: 11.1.0
       dotenv: 16.4.5
