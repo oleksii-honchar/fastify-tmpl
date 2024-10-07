@@ -50,7 +50,7 @@
   "devDependencies": {
     "@dotenvx/dotenvx": "^1.14.1",
     "@eslint/js": "^9.11.0",
-    "@faker-js/faker": "^8.4.1",
+    "@faker-js/faker": "^9.0.3",
     "@tsconfig/node22": "22.0.0",
     "@tsconfig/recommended": "1.0.7",
     "@types/config": "^3.3.4",
